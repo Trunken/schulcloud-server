@@ -62,6 +62,7 @@ app.use(compress())
 
 	// .configure(hooks())
 	// .configure(rest(handleResponseType))
+	.configure(express.rest())
 	.configure(socketio())
 
 	// auth is setup in /authentication/
