@@ -133,7 +133,8 @@
 			"SYSTEM_CREATE",
 			"USER_CREATE",
 			"USERGROUP_CREATE",
-			"USERGROUP_EDIT"
+			"USERGROUP_EDIT",
+			"COURSE_EDIT"
 		],
 		"__v": 0
 	},
