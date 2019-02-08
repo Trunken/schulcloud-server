@@ -35,7 +35,7 @@ module.exports = function () {
 					let user = result[0];
 					let release = result[1].data[0];
 					let prefs = user.preferences || {};
-
+					if(!release){ return Promise.resolve(); }
 					if (Date.parse(prefs.releaseDate) < Date.parse(release.createdAt)) {
 						socket.emit('newReleaseAvailable', {bool: true, createdAt: release.createdAt});
 					} else if (typeof prefs.releaseDate == 'undefined')
