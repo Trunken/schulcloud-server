@@ -3,7 +3,6 @@
 const auth = require('@feathersjs/authentication');
 const jwt = require('@feathersjs/authentication-jwt');
 const local = require('@feathersjs/authentication-local');
-const logger = require('winston');
 
 const extractors = require('passport-jwt').ExtractJwt;
 

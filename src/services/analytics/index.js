@@ -2,7 +2,7 @@
 
 const ua = require('universal-analytics');
 const hooks = require('./hooks');
-const logger = require('winston');
+const logger = require('../../logger');
 
 const AnalyticsModel = require('./model');
 

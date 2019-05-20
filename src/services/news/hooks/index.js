@@ -1,5 +1,5 @@
 const auth = require('@feathersjs/authentication');
-const logger = require('winston');
+const logger = require('../../../logger');
 const globalHooks = require('../../../hooks');
 const { newsModel, newsHistoryModel } = require('../model');
 

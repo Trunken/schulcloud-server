@@ -2,7 +2,7 @@
 
 const autoPopulate = require('mongoose-autopopulate');
 const mongoose = require('mongoose');
-const logger = require('winston');
+const logger = require('../../logger');
 
 const { Schema } = mongoose;
 

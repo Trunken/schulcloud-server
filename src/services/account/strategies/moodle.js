@@ -1,5 +1,5 @@
 const moodleClient = require('moodle-client');
-const logger = require('winston');
+const logger = require('../../../logger');
 const promisify = require('es6-promisify');
 const errors = require('@feathersjs/errors');
 

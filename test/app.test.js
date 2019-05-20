@@ -6,7 +6,7 @@ const chai = require('chai');
 const expect = chai.expect;
 const chaiHttp = require('chai-http');
 chai.use(chaiHttp);
-const logger = require('winston');
+const logger = require('../src/logger');
 
 describe('Feathers application tests', function () {
 	before(function (done) {
